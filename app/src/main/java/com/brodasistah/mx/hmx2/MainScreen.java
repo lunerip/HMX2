@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.SurfaceView;
 import android.widget.TextView;
 import com.google.android.gms.vision.CameraSource;
-
 import org.w3c.dom.Text;
 
 
@@ -18,7 +17,7 @@ public class MainScreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_list_item);
+        setContentView(R.layout.activity_main_screen);
 
         cameraView=(SurfaceView)findViewById(R.id.surface_view);
         textView=(TextView)findViewById(R.id.text_view);
